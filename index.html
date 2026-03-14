@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Create Birthday Gift</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Create Birthday Puzzle Gift 🎉</h1>
+
+<input id="nameInput" placeholder="Birthday Name"><br><br>
+<input id="messageInput" placeholder="Gift Message"><br><br>
+
+<label>Choose Puzzle Photo:</label>
+<input type="file" id="photoInput" accept="image/*"><br><br>
+
+<label>Choose Gift Image:</label>
+<input type="file" id="giftInput" accept="image/*"><br><br>
+
+<button onclick="generateGiftLink()">Generate Gift Link</button>
+
+<p id="linkOutput"></p>
+
+<script src="script.js"></script>
+</body>
+</html>

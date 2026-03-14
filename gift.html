@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Birthday Puzzle Gift</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="title"></h1>
+
+<p>Solve the puzzle to unlock your gift 🎁</p>
+
+<div id="puzzle"></div>
+
+<div id="gift" style="display:none">
+<div id="giftBox">
+<img id="giftImg">
+<h2 id="giftMsg"></h2>
+</div>
+<button onclick="startConfetti()">Celebrate 🎉</button>
+</div>
+
+<audio id="bgMusic" loop></audio>
+
+<canvas id="confetti"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
